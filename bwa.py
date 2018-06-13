@@ -31,7 +31,7 @@ def main(argv):
    bwa_cl = ['bwa', 'mem', reffile, pair1, pair2]
    if len(bwa_cl) != 5:
       print "Error: Missing parameters"
-      print 'test.py -r <reference_file> -L <paired_end_left> -R <paired_end_right>'
+      print 'bwa.py -r <reference_file> -L <paired_end_left> -R <paired_end_right>'
       sys.exit(2)
    print 'The command line run was "$ %s"' % (' ').join(bwa_cl)
    with open(output, 'w') as f_output:
