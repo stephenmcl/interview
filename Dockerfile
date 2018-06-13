@@ -17,5 +17,5 @@ RUN wget https://sourceforge.net/projects/bio-bwa/files/bwa-0.7.5a.tar.bz2 && \
     cp /bwa-0.7.5a/bwa /usr/local/bin && \
     apt-get install python2.7 python-pip python-dev -y && \
     pip install cwlref-runner && \
-    pip install cwltool && \
+    pip install cwltool
     
